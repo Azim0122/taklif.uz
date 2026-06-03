@@ -425,7 +425,7 @@ langBtns.forEach(btn => {
                 quote11: 'Мы хотим отпраздновать этот дорогой для нас день вместе с вами. Будем искренне рады, если вы разделите с нами нашу радость.',
                 cal11: 'СЧИТАННЫЕ ДНИ',
                 cal22: 'Свадебный календарь',
-                cal33: 'ИЙУН 2026',
+                cal33: 'ИЮНЬ 2026',
                 cale1: 'Пн',
                 cale2: 'Вт',
                 cale3: 'Ср',
@@ -440,11 +440,15 @@ langBtns.forEach(btn => {
                 detcd4: 'Ресторан «SARBON», Фергана, улица Фергана, 27б',
                 detcd5: 'Открыть на карте →',
                 detcd6: 'Программа свадьбы',
+                 detcd22: 'Места проведения',
+                 detcd23: '«QANDAK» свадебный дом, Риштанский район',
                 'detcd-side1': 'Сторона невесты',
                 'detcd-side2': 'Сторона жениха',
                 detcd7: '21 июня 2026',
+                detcd24: '13 июня 2026',
                 detcd8: '05:00 — Утренний плов',
                 detcd8b: '17:00 — Свадебный банкет',
+                detcd25: '11:00 — Свадебный банкет (для стороны невесты)',
                 detcd9: 'Дресс-код',
                 detcd10: 'Официальный, предпочтительны светлые тона',
                 detcd11: 'Формат',
@@ -528,11 +532,15 @@ langBtns.forEach(btn => {
                 detcd4: '«SARBON» restorani, Fargʻona, Fargʻona koʻchasi, 27b-uy',
                 detcd5: 'Xaritada ochish →',
                 detcd6: 'To‘y dasturi',
+                detcd22: 'Manzillar',
+                detcd23: `«QANDAK» to'yxonasi, Rishton tumani`,
                 'detcd-side1': 'Kelin tomoni',
                 'detcd-side2': 'Kuyov tomoni',
                 detcd7: '21-iyun, 2026',
+                detcd24: '13-iyun, 2026',
                 detcd8: '05:00 — Nahor Oshi',
                 detcd8b: '17:00 — To‘y Bazmi',
+                detcd25: '11:00 — To‘y Bazmi (kelin tomoni uchun)',
                 detcd9: 'Kiyinish kodi',
                 detcd10: 'Rasmiy, afzal ko‘rang yorug‘ ranglar',
                 detcd11: 'Format',
@@ -607,11 +615,15 @@ langBtns.forEach(btn => {
                 detcd4: '«SARBON» ресторани, Фарғона, Фарғона кўчаси, 27б',
                 detcd5: 'Харитада очиш →',
                 detcd6: 'Тўй дастури',
+                 detcd22: 'Манзиллар',
+                 detcd23: `«КАНДАК» тўйхонаси, Риштон тумани`,
                 'detcd-side1': 'Келин томони',
                 'detcd-side2': 'Куёв томони',
                 detcd7: '21-ийун, 2026',
+                detcd24: '13-ийун, 2026',
                 detcd8: '05:00 — Наҳор Оши',
                 detcd8b: '17:00 — Тўй Базми',
+                detcd25: '11:00 — Тўй Базми (келин томони учун)',
                 detcd9: 'Кийиниш коди',
                 detcd10: 'Расмий, ёруғ ранглар афзал',
                 detcd11: 'Формат',
@@ -696,11 +708,15 @@ langBtns.forEach(btn => {
                 detcd4: '«SARBON» Restaurant, Fergana, Fergana Street, 27b',
                 detcd5: 'Open on map →',
                 detcd6: 'Wedding Program',
+                 detcd22: 'Venues',
+                    detcd23: '«QANDAK» Wedding House, Rishton District',
                 'detcd-side1': "Bride's Side",
                 'detcd-side2': "Groom's Side",
                 detcd7: 'June 21, 2026',
+                detcd24: 'June 13, 2026',
                 detcd8: '05:00 — Morning Pilaf',
                 detcd8b: '17:00 — Wedding Banquet',
+                detcd25: '11:00 — Wedding Banquet (for bride’s side)',
                 detcd9: 'Dress Code',
                 detcd10: 'Formal, preferably light colors',
                 detcd11: 'Format',
@@ -792,10 +808,14 @@ langBtns.forEach(btn => {
             set('.detcd4', t.detcd4);
             set('.detcd5', t.detcd5);
             set('.detcd6', t.detcd6);
+            set('.detcd22', t.detcd22);
+            set('.detcd23', t.detcd23);
             set('.detcd-side1', t['detcd-side1']);
             set('.detcd-side2', t['detcd-side2']);
             set('.detcd7', t.detcd7);
+            set('.detcd24', t.detcd24);
             set('.detcd8', t.detcd8);
+            set('.detcd25', t.detcd25);
             set('.detcd8b', t.detcd8b);
             set('.detcd9', t.detcd9);
             set('.detcd10', t.detcd10);

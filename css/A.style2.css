@@ -2943,6 +2943,35 @@ body.loaded .closing {
     opacity: 0.75;
     font-weight: 500;
 }
+.kelin .schedule-side-label{
+    color: #c4a0b8;
+}
+.kelin .schedule-date {
+    color: #c4a0b8;
+    opacity: 0.75;
+}
+.kelin .schedule-event {
+    color: #c4a0b8;
+}
+.kelin .schedule-item {
+    background: rgba(196, 160, 184, 0.06);
+    border-left-color: rgba(196, 160, 184, 0.3);
+}
+
+.kuyov .schedule-side-label{
+    color: rgba(34, 34, 34, 0.744);
+}
+.kuyov .schedule-date {
+    color: rgba(34, 34, 34, 0.744);
+    opacity: 0.75;
+}
+.kuyov .schedule-event {
+    color: rgba(34, 34, 34, 0.744);
+}
+.kuyov .schedule-item {
+    background: rgba(34, 34, 34, 0.06);
+    border-left-color: rgba(34, 34, 34, 0.3);
+}
 
 .schedule-event {
     font-size: 13px;

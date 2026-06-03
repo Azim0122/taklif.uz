@@ -153,6 +153,7 @@
         </div>
     </div>
     <section class="calendar-section fade-in">
+
         <div class="divider fade-in">
             <div class="dv-line"></div>
             <div class="dv-gem"></div>
@@ -173,10 +174,7 @@
                 <div class="calendar-weekday cale5">Ju</div>
                 <div class="calendar-weekday cale6">Sh</div>
                 <div class="calendar-weekday cale7">Ya</div>
-                <!-- 1-sentabr seshanba? 2026-yil 1-sentabr seshanba kuni -->
-                <!-- To‘g‘ri taqvim: 1-Sep Seshanba, shuning uchun dushanba bo‘sh -->
-                <div class="calendar-day empty"></div>
-                <div class="calendar-day empty"></div>
+                <!-- 2026-yil iyun 1 - dushanba -->
                 <div class="calendar-day">1</div>
                 <div class="calendar-day">2</div>
                 <div class="calendar-day">3</div>
@@ -189,11 +187,10 @@
                 <div class="calendar-day">10</div>
                 <div class="calendar-day">11</div>
                 <div class="calendar-day">12</div>
-                 <div class="calendar-day wedding-day">13 <div class="heart-pulse"> <svg viewbox="0 0 24 24" fill="none"
+                <div class="calendar-day wedding-day">13 <div class="heart-pulse"> <svg viewbox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="1.2">
                             <path
-                                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-                        </svg> </div>
+                                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg> </div>
                     </div>
                 <div class="calendar-day">14</div>
                 <div class="calendar-day">15</div>
@@ -210,18 +207,18 @@
                     </div>
                 <div class="calendar-day">22</div>
                 <div class="calendar-day">23</div>
-                <div class="calendar-day">24</div> 
-                <div class="calendar-day"> 25 </div>
+                <div class="calendar-day">24</div> <!-- 25 - TO‘Y KUNI, yurak animatsiyasi -->
+                <div class="calendar-day "> 25 </div>
                 <div class="calendar-day">26</div>
                 <div class="calendar-day">27</div>
                 <div class="calendar-day">28</div>
                 <div class="calendar-day">29</div>
                 <div class="calendar-day">30</div>
-                <div class="calendar-day">31</div>
             </div>
             <div class="calendar-note"> <span class="note-dot"></span> <span class="note-text notetext1">yurak — to‘y
-                    kunlari</span> </div>
+                    kuni</span> </div>
         </div>
+    </section>
     </section>
     <section class="section details-section fade-in" style="margin-top: 40px;">
         <div class="divider fade-in">
@@ -239,12 +236,29 @@
                         <path d="M12 2c-4.4 0-8 3.6-8 8 0 5.4 8 13 8 13s8-7.6 8-13c0-4.4-3.6-8-8-8z" />
                         <circle cx="12" cy="10" r="3" />
                     </svg> </div>
-                <div class="detail-content">
-                    <h3 class="detail-title detcd3">Manzil</h3>
-                    <p class="detail-text detcd4">«SARBON» restorani, Fargʻona, Fargʻona koʻchasi, 27b-uy</p> <a
+                    
+                      <div class="wedding-schedule">
+                         <h3 class="detail-title detcd22">Manzillar</h3>
+        <div class="schedule-side kelin">
+            <span class="schedule-side-label detcd-side1">Kelin tomoni</span>
+            <p class="detail-text schedule-item">
+                <span class="schedule-date detcd23">«QANDAK» to'yxonasi, Rishton tumani</span>
+            </p>
+        </div>
+        <div class="schedule-divider"></div>
+        <div class="schedule-side kuyov">
+            <span class="schedule-side-label detcd-side2">Kuyov tomoni</span>
+            <p class="detail-text schedule-item ">
+                <span class="schedule-date detcd4">«SARBON» restorani, Fargʻona, Fargʻona koʻchasi, 27b-uy</span>
+                <span class="schedule-event "><a
                         href="https://yandex.uz/maps/-/CPc~N6Yl" target="_blank" class="detail-link detcd5">Xaritada
                         ochish →</a>
-                </div>
+                        </span>
+            </p>
+        </div>
+    </div>
+                
+                
             </div> <!-- Vaqt -->
             <div class="detail-card">
                 <div class="detail-icon"> <svg width="28" height="28" viewbox="0 0 24 24" fill="none"
@@ -255,22 +269,22 @@
               <div class="detail-content">
     <h3 class="detail-title detcd6">To‘y dasturi</h3>
     <div class="wedding-schedule">
-        <div class="schedule-side">
-            <span class="schedule-side-label detcd-side1">Kelin tomoni</span>
+        <div class="schedule-side kelin ">
+            <span class="schedule-side-label  detcd-side1">Kelin tomoni</span>
             <p class="detail-text schedule-item">
-                <span class="schedule-date">13-iyun, 2026</span>
-                <span class="schedule-event">11:00 &mdash; To‘y Bazmi</span>
+                <span class="schedule-date detcd24">13-iyun, 2026</span>
+                <span class="schedule-event detcd25">11:00 &mdash; To‘y Bazmi (kelin tomoni uchun)</span>
             </p>
         </div>
         <div class="schedule-divider"></div>
-        <div class="schedule-side">
+        <div class="schedule-side kuyov">
             <span class="schedule-side-label detcd-side2">Kuyov tomoni</span>
-            <p class="detail-text schedule-item detcd7">
-                <span class="schedule-date">21-iyun, 2026</span>
+            <p class="detail-text schedule-item ">
+                <span class="schedule-date detcd7">21-iyun, 2026</span>
                 <span class="schedule-event detcd8">05:00 &mdash; Nahor Oshi</span>
             </p>
             <p class="detail-text schedule-item">
-                <span class="schedule-date">21-iyun, 2026</span>
+                <span class="schedule-date detcd7">21-iyun, 2026</span>
                 <span class="schedule-event detcd8b">17:00 &mdash; To‘y Bazmi</span>
             </p>
         </div>
