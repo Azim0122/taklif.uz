@@ -252,6 +252,9 @@ body {
     width: 100%;
     position: relative
 }
+.timer-divider{
+        margin: 10px auto !important;
+}
 
 .dv-line {
     flex: 1;
@@ -355,6 +358,9 @@ body {
         gap: 8px;
         margin: 32px auto
     }
+    .timer-divider{
+        margin: 10px auto !important;
+}
 
     .dv-dot {
         width: 4px;
